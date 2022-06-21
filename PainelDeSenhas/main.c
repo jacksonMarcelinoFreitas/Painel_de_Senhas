@@ -12,7 +12,7 @@ int main(){
         printf("\n ============= Sistemas de Senhas ==============="                 );
         printf("\n |           **Geracao de senhas**  \t\t|"                                                           );
         printf("\n ================================================");
-        printf("\n | 1)Geração de Senha \t\t\t\t|"                                                                       );
+        printf("\n | 1)Geraï¿½ï¿½o de Senha \t\t\t\t|"                                                                       );
 		printf("\n | 2)Chamada de Senha \t\t\t\t|"                                                                     );
         printf("\n | 3)Listagem fila\t\t\t\t|"                                                                                );
         printf("\n |\t\t\t\t\t\t|"                                                                                                 );
@@ -46,7 +46,7 @@ int main(){
 
 	        switch(op){
 	        	case 1:
-	        		valor = rand() % 100;
+	        		valor = rand() % 1000;
 					valor = valor+1;
 			        prioridade = 1;
 		            inserir_na_fila(&fila, valor, prioridade);
@@ -67,7 +67,7 @@ int main(){
 
 	        	break;
 	        	case 2:
-	        	    valor = rand() % 100;
+	        	    valor = rand() % 1000;
 	        		valor = valor+1;
 			        prioridade = 2;
 		            inserir_na_fila(&fila, valor, prioridade);
@@ -90,7 +90,7 @@ int main(){
 		            if(op != 1 || op != 2)
                             printf("\n =================================");
                             printf("\n | \t\t\t\t|"                                                                 );
-                            printf("\n | ERRO: OPÇÃO INVÁLIDA!!!\t|"                                  );
+                            printf("\n | ERRO: OPï¿½ï¿½O INVï¿½LIDA!!!\t|"                                  );
                             printf("\n | \t\t\t\t|"                                                                 );
                             printf("\n =================================");
                             printf("\n\n");
@@ -111,7 +111,7 @@ int main(){
                     printf("\n | SENHA:     ** %d **\t\t|"                          , r->valor);
                     printf("\n =================================");
                     printf("\n | Tipo:  Normal\t\t|"                                                  );
-                    printf("\n | Status:  Excluída no sistema\t|"                                );
+                    printf("\n | Status:  Excluï¿½da no sistema\t|"                                );
                     printf("\n =================================");
                     free(r);
                     printf("\n\n");
@@ -127,7 +127,7 @@ int main(){
                     printf("\n | SENHA:     ** %d **\t\t|"                           , r->valor);
                     printf("\n =================================" );
                     printf("\n | Tipo:  Preferencial\t\t|"                                             );
-                    printf("\n | Status:  Excluída no sistema\t|"                                  );
+                    printf("\n | Status:  Excluï¿½da no sistema\t|"                                  );
                     printf("\n =================================" );
                     free(r);
                     printf("\n\n");
@@ -144,7 +144,7 @@ int main(){
             if(opcao >= 4)
                 printf("\n =================================");
                 printf("\n | \t\t\t\t|"                                                                 );
-                printf("\n | ERRO: OPÇÃO INVÁLIDA!!!\t|"                                  );
+                printf("\n | ERRO: OPï¿½ï¿½O INVï¿½LIDA!!!\t|"                                  );
                 printf("\n | \t\t\t\t|"                                                                 );
                 printf("\n =================================");
                 printf("\n\n");
