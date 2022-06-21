@@ -1,5 +1,9 @@
 <h1 align="center" style="color:#f27616">Painel de Senha Sequencial📑</h1>
 
+
+<img align="center" src="https://user-images.githubusercontent.com/88464195/174872040-3a39a3eb-1b55-46e6-8aed-dfc4f4b0f77c.gif" alt="Gif do terminal executando a aplicação de um Painel de Senhas feito em linguagem C"></img>
+
+
 <h2 style="color:#19ff30">Objetivo:</h2>
 
         Fazer o uso do tipo de estrutura de dados FILA

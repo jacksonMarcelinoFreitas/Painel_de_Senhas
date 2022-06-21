@@ -24,6 +24,11 @@ int main(){
 		system("cls");
 
         switch(opcao){
+        case 0:
+        sleep(1);
+        printf("Saindo...!!!");
+        exit;
+        break;
         case 1:
 
         printf("\n ========= Sistemas de Senhas ==========="                 );
@@ -62,7 +67,7 @@ int main(){
 
 	        	break;
 	        	case 2:
-	        		valor = rand() % 100;
+	        	    valor = rand() % 100;
 	        		valor = valor+1;
 			        prioridade = 2;
 		            inserir_na_fila(&fila, valor, prioridade);
