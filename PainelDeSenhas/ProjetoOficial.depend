@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1655823590 source:c:\users\jacks\onedrive - instituição adventista de ensino\projetooficial\main.c
+	"funcoes.h"
+
+1655823397 c:\users\jacks\onedrive - instituição adventista de ensino\projetooficial\funcoes.h
+	<stdio.h>
+	<locale.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
